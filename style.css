@@ -4,8 +4,8 @@ html {
 
 body {
     background-color: #2f3035;
-    background-image: url(images/perseus_multi.jpg);
-    background-size: cover;
+    /* background-image: url(images/perseus_multi.jpg); */
+    /* background-size: cover; */
 }
 
 .header-image{
