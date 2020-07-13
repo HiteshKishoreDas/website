@@ -8,24 +8,31 @@ body {
     /* background-size: cover; */
 }
 
-.header-image{
-    height: 100px;
+.zoom-image{
+    height: 200px;
 }
 
 .container {
+    /* background-color: greenyellow; */
     margin-left: auto;
     margin-right: auto;
-    width: 1024px;
+    width: 75%;
 }
 
-header {
-    /* background-color: blue; */
-    height: 118px;
-    text-align: center;
+.box1 {
+    /* background-color: pink; */
+    padding-left: 10px;
+}
+
+.box2 {
+    /* background-color: greenyellow; */
 }
 
 nav {
     background-color: rgba(255, 255, 255, 0.3);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     /* height: 40px; */
     text-align: center;
     padding-top:10px;
@@ -35,23 +42,18 @@ nav {
 main {
     /* background-color: orange; */
     /* height: 350px; */
-    text-align: center;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 50vh;
     padding-top: 40px;
+
+    /* text-align: center;
     padding-left: 200px;
-    padding-right: 200px;
-}
-
-section {
-    text-align: center;
-}
-
-footer {
-    background-color: greenyellow;
-    height: 100px;
+    padding-right: 200px; */
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 30px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -72,12 +74,4 @@ nav a {
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
-}
-
-.maps {
-    padding-bottom: 100px;
-}
-
-.videos {
-    padding-bottom: 100px;
 }
