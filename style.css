@@ -28,6 +28,11 @@ body {
     /* background-color: greenyellow; */
 }
 
+.proj-box{
+    /* background-color: hotpink; */
+    
+}
+
 nav {
     background-color: rgba(255, 255, 255, 0.3);
     width: 60%;
@@ -43,6 +48,19 @@ main {
     /* background-color: orange; */
     /* height: 350px; */
     display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 50vh; */
+    padding-top: 40px;
+
+    /* text-align: center;
+    padding-left: 200px;
+    padding-right: 200px; */
+}
+
+.main2 {
+    /* background-color: orange; */
+    /* height: 350px; */
+    display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 50vh;
     padding-top: 40px;
@@ -54,6 +72,12 @@ main {
 
 h1 {
     font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 23px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
